@@ -1,0 +1,100 @@
+footer{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 2em;
+    gap: 2em;
+}
+
+#logo{
+    background-color: rgba(255, 255, 255, 0.272);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+#logo>img{
+    width: 80%;
+}
+
+#links h2,#contact h2{
+    padding-left: 0.4em;
+    border-left: 6px solid red;
+}
+#links a,#contact a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#links a:hover{
+    text-decoration: underline;
+    color: darkgrey;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+
+
+
+#contact,#links{
+    background-color: white;
+    border-radius: 1em;
+    width: 70vw;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    font-size: 1.5em;
+    gap: 1em;
+
+}
+
+
+.social-media-footer{
+    padding: 0.5em;
+    width: fit-content;
+    background-color: rgba(173, 216, 230, 0.105);
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.social-media-footer a{
+   font-size: 1.5em;
+   transition: transform 0.2s ease-in-out;
+}
+
+
+.social-media-footer a:hover{
+    transform: translateY(-0.1em);
+}
+
+
+
+#copyright{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: large;
+    font-weight: 600;
+    border-top: 0.1em solid rgba(128, 128, 128, 0.451);
+}

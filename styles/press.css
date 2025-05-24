@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+article{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    height: fit-content;
+}
+
+article>main{
+    background-color: aliceblue;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+article>main .slider{
+    position: relative;
+}
+
+article>main img{
+    width: 100%;
+}
+
+article>main .description{
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0.195);
+    bottom: 1em;
+    font-size: 1.5em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+
+
+
+article>aside{
+    background-color: aliceblue;
+    height: fit-content;
+    display: flex;
+    gap:0.3em;
+    padding: 0.2em;
+}
+
+article aside #far{
+    display: block;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    animation: far-animation 5s ease-in-out infinite ;
+    animation-direction: alternate;
+}
+
+
+@keyframes far-animation {
+    from{background-color: red;}
+    to{background-color: rgb(188, 188, 0);}
+}
+
+article aside .news{
+    margin-top: 1.5em;
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+
+article aside .news img{
+    width: 70%;
+}
+
+article aside .news .description{
+    position: absolute;
+    bottom: 1em;
+    background-color: rgba(215, 242, 250, 0.63);
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+

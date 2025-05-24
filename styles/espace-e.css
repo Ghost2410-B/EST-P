@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#espace-etudiant{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:center ;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#espace-title{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    width: 100%;
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center
+}
+
+#espace-e-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.5em;
+    padding: 1em;
+}
+
+
+#espace-e-container .content{
+    background-color: rgb(82, 189, 255);
+    width:45%;
+    height: 6em;
+    margin: 0.1em;
+    border-radius: 1em;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#espace-e-container .content img{
+    height: 90%;
+    width: 90%;
+}
+
+#espace-e-container #mtu{
+    background-image: url(../to-study-4857779.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#espace-e-container #time{
+    background-image: url(../calendare.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#espace-e-container #moodle{
+    background-image: url(../students.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#espace-e-container #roseta{
+    background-image: url(../languages.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#espace-e-container #gmail{
+    background-image: url(../Gmail_Logo_512px.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#espace-e-container #concours{
+    background-image: url(../concours-img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+

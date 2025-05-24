@@ -1,0 +1,76 @@
+body{
+    overflow-x: hidden;
+    background-image:url(../360_F_235670617_warzpGiTgHXlWnDysjaQKZfCDcjQDta0.jpg) ;
+}
+
+
+
+
+
+#scroll-button{
+    background-color: blue;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    width: 3em;
+    border-radius: 1em;
+    z-index: 9999999;
+    bottom: -3em;
+    right: 1em;
+    animation: scroll-button cubic-bezier(1,-0.42, 0.47, 2.28);
+    animation-timeline: scroll();
+    cursor:pointer;
+}
+#scroll-button i{
+    font-size: 1.5em;
+    color: aliceblue;
+} 
+@keyframes scroll-button{
+    to{
+        transform: translateY(-10em);
+    }
+    
+}
+
+
+
+#social-media{
+    position: fixed;
+    left: -3.3em;
+    bottom: 50vh;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    z-index: 99999;
+    border: 0.1em solid rgba(255, 255, 255, 0.411);
+    padding: 0.3em;
+    padding-right: 1em;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2em;
+    border-radius: 0.5em;
+    transition: transform 0.5s ease-out ;
+}
+
+
+#social-media i{
+    font-size: 2.5em;
+} 
+
+.fa-facebook{
+    color: blue;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-instagram{
+    color: orange;
+}
+.fa-linkedin{
+    color: rgb(97, 97, 255);
+}
+
+
+
